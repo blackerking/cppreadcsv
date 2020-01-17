@@ -75,11 +75,12 @@ std::string readcsv(void) {
 			     if(content.size() > i) readstring += ",";
 			 }
         datei1.close();
-        return Sendung;
+        return readstring;
 	}
 
 	else
 	{
 		std::cerr << "\n\nFehler\n\nDatei konnte nicht geoeffnet werden!." << std::endl;
+		exit(1);
 	}
 }
