@@ -9,9 +9,7 @@ std::string passetextan(std::string argstring)
     return argstring;
 }
 
-
-
-///STORAGE Daten ///
+//Beispiel mit 5 Werten//
 
 typedef struct {
 	std::string value1;
